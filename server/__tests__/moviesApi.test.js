@@ -1,6 +1,6 @@
 import request from "supertest";
 import express from "express";
-import {MongoClient} from "mongodb";
+import { MongoClient } from "mongodb";
 import { MoviesApi} from "../moviesApi.js";
 import dotenv from "dotenv";
 import bodyParser from "body-parser";
