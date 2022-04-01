@@ -1,6 +1,5 @@
 import { Router } from "express";
 
-
 export function MoviesApi(mongoDatabase) {
   const router = new Router();
 
